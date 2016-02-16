@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB398BA1C72DB2A00FBD1CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB398B91C72DB2A00FBD1CE /* main.m */; };
+		AAB398BD1C72DB2A00FBD1CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB398BC1C72DB2A00FBD1CE /* AppDelegate.m */; };
+		AAB398C01C72DB2A00FBD1CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB398BF1C72DB2A00FBD1CE /* ViewController.m */; };
+		AAB398C31C72DB2A00FBD1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB398C11C72DB2A00FBD1CE /* Main.storyboard */; };
+		AAB398C51C72DB2A00FBD1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB398C41C72DB2A00FBD1CE /* Assets.xcassets */; };
+		AAB398C81C72DB2A00FBD1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB398C61C72DB2A00FBD1CE /* LaunchScreen.storyboard */; };
+		AAB398D31C72DB2B00FBD1CE /* HXTabbarCenterButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB398D21C72DB2B00FBD1CE /* HXTabbarCenterButtonTests.m */; };
+		AAB398DE1C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB398DD1C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests.m */; };
+		AAB398ED1C72DB6500FBD1CE /* HXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB398EC1C72DB6500FBD1CE /* HXTabBarController.m */; };
+		AAB398F01C72DBA000FBD1CE /* UITabBar+HXCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB398EF1C72DBA000FBD1CE /* UITabBar+HXCenterButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB398CF1C72DB2B00FBD1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB398AD1C72DB2A00FBD1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB398B41C72DB2A00FBD1CE;
+			remoteInfo = HXTabbarCenterButton;
+		};
+		AAB398DA1C72DB2B00FBD1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB398AD1C72DB2A00FBD1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB398B41C72DB2A00FBD1CE;
+			remoteInfo = HXTabbarCenterButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB398B51C72DB2A00FBD1CE /* HXTabbarCenterButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXTabbarCenterButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB398B91C72DB2A00FBD1CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB398BB1C72DB2A00FBD1CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAB398BC1C72DB2A00FBD1CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAB398BE1C72DB2A00FBD1CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAB398BF1C72DB2A00FBD1CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAB398C21C72DB2A00FBD1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAB398C41C72DB2A00FBD1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB398C71C72DB2A00FBD1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAB398C91C72DB2B00FBD1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB398CE1C72DB2B00FBD1CE /* HXTabbarCenterButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXTabbarCenterButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB398D21C72DB2B00FBD1CE /* HXTabbarCenterButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXTabbarCenterButtonTests.m; sourceTree = "<group>"; };
+		AAB398D41C72DB2B00FBD1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB398D91C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXTabbarCenterButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB398DD1C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXTabbarCenterButtonUITests.m; sourceTree = "<group>"; };
+		AAB398DF1C72DB2B00FBD1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB398EB1C72DB6500FBD1CE /* HXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTabBarController.h; sourceTree = "<group>"; };
+		AAB398EC1C72DB6500FBD1CE /* HXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTabBarController.m; sourceTree = "<group>"; };
+		AAB398EE1C72DBA000FBD1CE /* UITabBar+HXCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+HXCenterButton.h"; sourceTree = "<group>"; };
+		AAB398EF1C72DBA000FBD1CE /* UITabBar+HXCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HXCenterButton.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB398B21C72DB2A00FBD1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB398CB1C72DB2B00FBD1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB398D61C72DB2B00FBD1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB398AC1C72DB2A00FBD1CE = {
+			isa = PBXGroup;
+			children = (
+				AAB398B71C72DB2A00FBD1CE /* HXTabbarCenterButton */,
+				AAB398D11C72DB2B00FBD1CE /* HXTabbarCenterButtonTests */,
+				AAB398DC1C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests */,
+				AAB398B61C72DB2A00FBD1CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB398B61C72DB2A00FBD1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB398B51C72DB2A00FBD1CE /* HXTabbarCenterButton.app */,
+				AAB398CE1C72DB2B00FBD1CE /* HXTabbarCenterButtonTests.xctest */,
+				AAB398D91C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB398B71C72DB2A00FBD1CE /* HXTabbarCenterButton */ = {
+			isa = PBXGroup;
+			children = (
+				AAB398BB1C72DB2A00FBD1CE /* AppDelegate.h */,
+				AAB398BC1C72DB2A00FBD1CE /* AppDelegate.m */,
+				AAB398EB1C72DB6500FBD1CE /* HXTabBarController.h */,
+				AAB398EC1C72DB6500FBD1CE /* HXTabBarController.m */,
+				AAB398BE1C72DB2A00FBD1CE /* ViewController.h */,
+				AAB398BF1C72DB2A00FBD1CE /* ViewController.m */,
+				AAB398EE1C72DBA000FBD1CE /* UITabBar+HXCenterButton.h */,
+				AAB398EF1C72DBA000FBD1CE /* UITabBar+HXCenterButton.m */,
+				AAB398C11C72DB2A00FBD1CE /* Main.storyboard */,
+				AAB398C41C72DB2A00FBD1CE /* Assets.xcassets */,
+				AAB398C61C72DB2A00FBD1CE /* LaunchScreen.storyboard */,
+				AAB398C91C72DB2B00FBD1CE /* Info.plist */,
+				AAB398B81C72DB2A00FBD1CE /* Supporting Files */,
+			);
+			path = HXTabbarCenterButton;
+			sourceTree = "<group>";
+		};
+		AAB398B81C72DB2A00FBD1CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB398B91C72DB2A00FBD1CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAB398D11C72DB2B00FBD1CE /* HXTabbarCenterButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB398D21C72DB2B00FBD1CE /* HXTabbarCenterButtonTests.m */,
+				AAB398D41C72DB2B00FBD1CE /* Info.plist */,
+			);
+			path = HXTabbarCenterButtonTests;
+			sourceTree = "<group>";
+		};
+		AAB398DC1C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB398DD1C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests.m */,
+				AAB398DF1C72DB2B00FBD1CE /* Info.plist */,
+			);
+			path = HXTabbarCenterButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB398B41C72DB2A00FBD1CE /* HXTabbarCenterButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB398E21C72DB2B00FBD1CE /* Build configuration list for PBXNativeTarget "HXTabbarCenterButton" */;
+			buildPhases = (
+				AAB398B11C72DB2A00FBD1CE /* Sources */,
+				AAB398B21C72DB2A00FBD1CE /* Frameworks */,
+				AAB398B31C72DB2A00FBD1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXTabbarCenterButton;
+			productName = HXTabbarCenterButton;
+			productReference = AAB398B51C72DB2A00FBD1CE /* HXTabbarCenterButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB398CD1C72DB2B00FBD1CE /* HXTabbarCenterButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB398E51C72DB2B00FBD1CE /* Build configuration list for PBXNativeTarget "HXTabbarCenterButtonTests" */;
+			buildPhases = (
+				AAB398CA1C72DB2B00FBD1CE /* Sources */,
+				AAB398CB1C72DB2B00FBD1CE /* Frameworks */,
+				AAB398CC1C72DB2B00FBD1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB398D01C72DB2B00FBD1CE /* PBXTargetDependency */,
+			);
+			name = HXTabbarCenterButtonTests;
+			productName = HXTabbarCenterButtonTests;
+			productReference = AAB398CE1C72DB2B00FBD1CE /* HXTabbarCenterButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAB398D81C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB398E81C72DB2B00FBD1CE /* Build configuration list for PBXNativeTarget "HXTabbarCenterButtonUITests" */;
+			buildPhases = (
+				AAB398D51C72DB2B00FBD1CE /* Sources */,
+				AAB398D61C72DB2B00FBD1CE /* Frameworks */,
+				AAB398D71C72DB2B00FBD1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB398DB1C72DB2B00FBD1CE /* PBXTargetDependency */,
+			);
+			name = HXTabbarCenterButtonUITests;
+			productName = HXTabbarCenterButtonUITests;
+			productReference = AAB398D91C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB398AD1C72DB2A00FBD1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = can;
+				TargetAttributes = {
+					AAB398B41C72DB2A00FBD1CE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AAB398CD1C72DB2B00FBD1CE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AAB398B41C72DB2A00FBD1CE;
+					};
+					AAB398D81C72DB2B00FBD1CE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AAB398B41C72DB2A00FBD1CE;
+					};
+				};
+			};
+			buildConfigurationList = AAB398B01C72DB2A00FBD1CE /* Build configuration list for PBXProject "HXTabbarCenterButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB398AC1C72DB2A00FBD1CE;
+			productRefGroup = AAB398B61C72DB2A00FBD1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB398B41C72DB2A00FBD1CE /* HXTabbarCenterButton */,
+				AAB398CD1C72DB2B00FBD1CE /* HXTabbarCenterButtonTests */,
+				AAB398D81C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB398B31C72DB2A00FBD1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB398C81C72DB2A00FBD1CE /* LaunchScreen.storyboard in Resources */,
+				AAB398C51C72DB2A00FBD1CE /* Assets.xcassets in Resources */,
+				AAB398C31C72DB2A00FBD1CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB398CC1C72DB2B00FBD1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB398D71C72DB2B00FBD1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB398B11C72DB2A00FBD1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB398C01C72DB2A00FBD1CE /* ViewController.m in Sources */,
+				AAB398BD1C72DB2A00FBD1CE /* AppDelegate.m in Sources */,
+				AAB398BA1C72DB2A00FBD1CE /* main.m in Sources */,
+				AAB398F01C72DBA000FBD1CE /* UITabBar+HXCenterButton.m in Sources */,
+				AAB398ED1C72DB6500FBD1CE /* HXTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB398CA1C72DB2B00FBD1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB398D31C72DB2B00FBD1CE /* HXTabbarCenterButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB398D51C72DB2B00FBD1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB398DE1C72DB2B00FBD1CE /* HXTabbarCenterButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB398D01C72DB2B00FBD1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB398B41C72DB2A00FBD1CE /* HXTabbarCenterButton */;
+			targetProxy = AAB398CF1C72DB2B00FBD1CE /* PBXContainerItemProxy */;
+		};
+		AAB398DB1C72DB2B00FBD1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB398B41C72DB2A00FBD1CE /* HXTabbarCenterButton */;
+			targetProxy = AAB398DA1C72DB2B00FBD1CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB398C11C72DB2A00FBD1CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB398C21C72DB2A00FBD1CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB398C61C72DB2A00FBD1CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB398C71C72DB2A00FBD1CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB398E01C72DB2B00FBD1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB398E11C72DB2B00FBD1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB398E31C72DB2B00FBD1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXTabbarCenterButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXTabbarCenterButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAB398E41C72DB2B00FBD1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXTabbarCenterButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXTabbarCenterButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAB398E61C72DB2B00FBD1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HXTabbarCenterButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXTabbarCenterButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXTabbarCenterButton.app/HXTabbarCenterButton";
+			};
+			name = Debug;
+		};
+		AAB398E71C72DB2B00FBD1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HXTabbarCenterButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXTabbarCenterButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXTabbarCenterButton.app/HXTabbarCenterButton";
+			};
+			name = Release;
+		};
+		AAB398E91C72DB2B00FBD1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HXTabbarCenterButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXTabbarCenterButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HXTabbarCenterButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAB398EA1C72DB2B00FBD1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HXTabbarCenterButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingxiang.HXTabbarCenterButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HXTabbarCenterButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB398B01C72DB2A00FBD1CE /* Build configuration list for PBXProject "HXTabbarCenterButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB398E01C72DB2B00FBD1CE /* Debug */,
+				AAB398E11C72DB2B00FBD1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB398E21C72DB2B00FBD1CE /* Build configuration list for PBXNativeTarget "HXTabbarCenterButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB398E31C72DB2B00FBD1CE /* Debug */,
+				AAB398E41C72DB2B00FBD1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAB398E51C72DB2B00FBD1CE /* Build configuration list for PBXNativeTarget "HXTabbarCenterButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB398E61C72DB2B00FBD1CE /* Debug */,
+				AAB398E71C72DB2B00FBD1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAB398E81C72DB2B00FBD1CE /* Build configuration list for PBXNativeTarget "HXTabbarCenterButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB398E91C72DB2B00FBD1CE /* Debug */,
+				AAB398EA1C72DB2B00FBD1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB398AD1C72DB2A00FBD1CE /* Project object */;
+}
